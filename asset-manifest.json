@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sabiominds/static/css/main.ae42ac5f.css",
+    "main.js": "/sabiominds/static/js/main.6f11b492.js",
+    "index.html": "/sabiominds/index.html",
+    "main.ae42ac5f.css.map": "/sabiominds/static/css/main.ae42ac5f.css.map",
+    "main.6f11b492.js.map": "/sabiominds/static/js/main.6f11b492.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae42ac5f.css",
+    "static/js/main.6f11b492.js"
+  ]
+}
