@@ -1,29 +1,56 @@
 import React from "react";
+import {
+  Navigation,
+  Pagination,
+  Scrollbar,
+  Mousewheel,
+  Autoplay,
+  EffectFade,
+} from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
 
 export const Header = (props) => {
+  const slider = [
+    {
+      title: "Project Title",
+      image: "img/landing/fabio-oyXis2kALVg-unsplash.jpg",
+    },
+    {
+      title: "Crafting Ideas",
+      image: "img/landing/growtika-nGoCBxiaRO0-unsplash.jpg",
+    },
+    {
+      title: "Your Text Here",
+      image: "img/landing/scott-graham-5fNmWej4tAA-unsplash.jpg",
+    },
+  ];
   return (
-    <header id="header">
-      <div className="intro">
-        <div className="overlay">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 intro-text">
-                <h1>
-                  {props.data ? props.data.title : "Loading"}
-                  <span></span>
-                </h1>
-                <p>{props.data ? props.data.paragraph : "Loading"}</p>
-                <a
-                  href="#features"
-                  className="btn btn-custom btn-lg page-scroll"
-                >
-                  Learn More
-                </a>{" "}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
+    <Swiper
+      speed={400}
+      modules={[
+        Pagination,
+        Mousewheel,
+        Navigation,
+        Scrollbar,
+        Autoplay,
+        EffectFade,
+      ]}
+      slidesPerView={1}
+      duration={400}
+      spaceBetween={10}
+      navigation={true}
+      autoplay={true}
+      autoplay-delay={400}
+      pagination={{ clickable: true }}
+    >
+      {slider.map((img, index) => (
+        <SwiperSlide className="swiper-slide-cover" key={index}>
+          <img class="slider-image" src={img.image} alt={`Slide ${index}`} />
+          <div className="text-overlay">{img.title}</div>
+        </SwiperSlide>
+      ))}
+      ;
+    </Swiper>
   );
 };

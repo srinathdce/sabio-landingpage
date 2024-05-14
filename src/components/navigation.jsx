@@ -3,7 +3,7 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      <div className="container">
+      <div className="container-fluid">
         <div className="navbar-header">
           <button
             type="button"
@@ -17,9 +17,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            Sabio minds
-          </a>{" "}
+          <a className="navbar-brand" href="#page-top">
+            <img class="d-inline-block align-top" src={props?.data?.logoImage} alt="logo-file" height="40"></img>
+          </a>
         </div>
 
         <div
