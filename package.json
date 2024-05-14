@@ -1,6 +1,5 @@
 {
   "name": "landingpage-react-template",
-  "homepage": "https://srinathdce.github.io/sabiominds",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -37,6 +36,5 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
