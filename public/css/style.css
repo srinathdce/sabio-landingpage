@@ -76,7 +76,7 @@ hr {
   transition: all 0.8s;
 }
 #menu.navbar-default {
-  background-color: #cecece;
+  background-color: #fff;
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
@@ -260,48 +260,53 @@ header .intro-text {
 #about {
   padding: 100px 0;
 }
-#about h3 {
-  font-size: 22px;
-  margin: 0 0 20px;
+#about .about-header {
+  margin-bottom: 50px;
+  font-size: 33px;
+  line-height: 44px;
+  letter-spacing: -0.08px;
+  font-family: "Open Sans", sans-serif;
+  color: #2c2c2c;
+  font-weight: 400;
+}
+#about .p-5 {
+  padding-top: 5px;
 }
 #about h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
 }
-#about h2::after {
-  position: absolute;
-  content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
-  height: 4px;
-  width: 60px;
-  bottom: 0;
-  left: 0;
+#about .p-t-45 {
+  padding-top: 40px !important;
 }
-#about .about-text li {
-  margin-bottom: 6px;
-  margin-left: 6px;
-  list-style: none;
-  padding: 0;
+
+#about .block-title {
+  font-family: "Montserrat";
+  margin: 10px 0;
+  font-weight: 400;
+  font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 }
-#about .about-text li:before {
-  content: "\f00c";
-  font-family: "FontAwesome";
-  color: #5ca9fb;
-  font-size: 11px;
-  font-weight: 300;
-  padding-right: 8px;
-}
+
 #about img {
-  width: 520px;
-  margin-top: 10px;
+  width: 450px;
   background: #fff;
   border-right: 0;
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+#about .mt-15 {
+  margin-top: 15px;
 }
 #about p {
-  line-height: 24px;
-  margin: 30px 0;
+  display: block;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: 25px;
+  margin: 0px 0px 10px 0px;
+  font-style: normal;
+  white-space: normal;
 }
 /* Services Section */
 #services {
@@ -315,6 +320,10 @@ header .intro-text {
 #services h2 {
   color: #fff;
 }
+#services .img-circle {
+  width: 150px;
+  height: 150px;
+}
 #services .section-title h2::after {
   position: absolute;
   content: "";
@@ -325,16 +334,7 @@ header .intro-text {
   margin-left: -30px;
   left: 50%;
 }
-#services i.fa {
-  font-size: 42px;
-  width: 120px;
-  height: 120px;
-  padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  border-radius: 50%;
-  color: #fff;
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
-}
+
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
@@ -395,46 +395,35 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
-#testimonials {
+/* content Section */
+#content {
   padding: 100px 0;
-  background: #f6f6f6;
+  margin: auto;
+  background: #f8d053;
 }
-#testimonials i {
-  color: #e6e6e6;
-  font-size: 32px;
-  margin-bottom: 20px;
-}
-.testimonial {
+
+.content {
   position: relative;
-  padding: 20px;
 }
-.testimonial-image {
-  float: left;
-  margin-right: 15px;
+
+#content h1 {
+  font-weight: 300 !important;
+  font-size: 33px;
+  line-height: 44px;
+  letter-spacing: -0.08px;
 }
-.testimonial-image,
-.testimonial-image img {
-  display: block;
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
+
+#content .flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.testimonial-content {
-  position: relative;
-  overflow: hidden;
+
+.image-responsive-height {
+  width: 100%;
+  height: 400px;
 }
-.testimonial-content p {
-  margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
-}
-.testimonial-meta {
-  margin-top: 10px;
-  font-size: 15px;
-  font-weight: 600;
-  color: #666;
-}
+
 /* Team Section */
 #team {
   padding: 100px 0;
@@ -456,7 +445,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #52536f 0%, #52536f 100%);
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -629,6 +618,12 @@ label {
   width: 1500px;
 }
 
+.feature-imgs {
+  overflow: hidden;
+}
+.white-line {
+  border-top: #fff 1px solid;
+}
 .text-overlay {
   position: absolute;
   background: #1416199c;
@@ -638,9 +633,118 @@ label {
   height: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
-  color: white;
-  font-size: 4em;
   font-family: "Raleway", sans-serif;
+}
+.slider-overlay-text {
+  font-size: 3em;
   font-weight: 700;
+  align-items: center;
+  color: #ffffff;
+}
+.feature-overlay-text {
+  font-size: 1.5em;
+  font-weight: 300;
+  align-items: flex-end;
+  padding-bottom: 4rem;
+  .boder-bottom {
+    color: #ccc;
+  }
+}
+
+.feature-overlay-text:hover {
+  background: #141619aa;
+  padding-bottom: 6rem;
+  .boder-bottom {
+    color: #ffffff;
+    border-bottom: 2px #fff solid;
+  }
+}
+
+/* ======================MEGA====================== */
+.mega {
+  display: none;
+  position: relative;
+  font-family: Montserrat;
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.06);
+}
+.service-class:hover {
+  .mega {
+    display: block;
+    position: absolute;
+    background-color: #fff;
+    padding: 30%;
+    margin-left: -870;
+    margin-top: 2%;
+  }
+}
+.mega .block-title {
+  font-size: 17px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.mega h2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 28px;
+  font-weight: 300;
+  text-transform: none;
+  line-height: 40px;
+}
+.mega .btn-black,
+.btn-black:focus {
+  color: #ffffff;
+  background-color: #000000cc;
+  border-color: #000000cc;
+}
+.mega .btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.mega .container ul.sub-menu {
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+.mega .container ul.sub-menu > li {
+  margin: 5px 0;
+  opacity: 1;
+  padding-left: 0;
+  -webkit-transition: all 0.1s linear 0.1s;
+  transition: all 0.1s linear 0.1s;
+}
+.mega .container ul.sub-menu > li a {
+  color: #000000;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  opacity: 0.5;
+  font-size: 11px;
+  line-height: 30px;
+}
+.mega .container ul.sub-menu > li a:focus {
+  opacity: 0.8;
+}
+.mega .container ul.sub-menu > li a:hover {
+  opacity: 0.8;
+}
+.mega .container ul.sub-menu > li a.active {
+  opacity: 1;
+}
+.mega .container ul.sub-menu > li:first-child {
+  margin-top: 19px;
+}
+.mega .container ul.sub-menu > li:last-child {
+  margin-bottom: 19px;
+}
+.mega .container .sub-menu-heading {
+  color: #000000;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-family: "Montserrat";
+  margin: 0;
+  padding-bottom: 5px;
+}
+.mega .btn-black.m-t-35 {
+  margin-top: 35px;
 }
