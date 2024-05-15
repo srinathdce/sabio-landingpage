@@ -13,7 +13,7 @@ import "swiper/swiper-bundle.css";
 export const Header = (props) => {
   const slider = [
     {
-      title: "Project Title",
+      title: "Building Bridges in the Digital Sphere",
       image: "img/landing/fabio-oyXis2kALVg-unsplash.jpg",
     },
     {
@@ -21,7 +21,7 @@ export const Header = (props) => {
       image: "img/landing/growtika-nGoCBxiaRO0-unsplash.jpg",
     },
     {
-      title: "Your Text Here",
+      title: "Where Ideas Converge and Solutions Emerge",
       image: "img/landing/scott-graham-5fNmWej4tAA-unsplash.jpg",
     },
   ];
