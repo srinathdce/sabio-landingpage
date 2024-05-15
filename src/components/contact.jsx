@@ -2,6 +2,7 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
+
 const initialState = {
   name: "",
   email: "",
@@ -24,7 +25,7 @@ export const Contact = (props) => {
     {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
     
     emailjs
-      .sendForm("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", e.target, "YOUR_PUBLIC_KEY")
+      .sendForm("service_ig52uyf", "template_ihpx2ad", e.target, "HLNNu8mfewttrTHug")
       .then(
         (result) => {
           console.log(result.text);
