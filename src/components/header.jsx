@@ -47,7 +47,7 @@ export const Header = (props) => {
       {slider.map((img, index) => (
         <SwiperSlide className="swiper-slide-cover" key={index}>
           <img class="slider-image" src={img.image} alt={`Slide ${index}`} />
-          <div className="text-overlay">{img.title}</div>
+          <div className="text-overlay slider-overlay-text">{img.title}</div>
         </SwiperSlide>
       ))}
       ;
