@@ -10,7 +10,7 @@ export const About = (props) => {
           </div>
           <div className="col-xs-12 col-md-6 text-right sm-text-center sm-p-l-0">
             {" "}
-            <img src="img/about.jpg" className="img-responsive" alt="" />{" "}
+            <img src="img/sabio-logo.jpeg" className="img-responsive" alt="" />{" "}
           </div>
           <div className="col-xs-12 col-md-4 col-sm-6 p-t-45">
             {" "}
