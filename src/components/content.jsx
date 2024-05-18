@@ -8,7 +8,7 @@ export const Content = (props) => {
           <div className="col-xs-12 col-md-5">
             <h1 className="title">{props?.data?.title}</h1>
           </div>
-          <div className="col-xs-12 col-md-7 pull-left full-height">
+          <div className="col-xs-12 col-md-4 pull-left full-height">
             <img className="image-responsive-height" src={props?.data?.img} alt="image"></img>
           </div>
         </div>
