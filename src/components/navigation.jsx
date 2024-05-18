@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top header">
-      <div className="container-fluid">
+      <div className="container">
         <div className="navbar-header">
           <button
             type="button"
@@ -17,14 +18,14 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand" href="#page-top">
+          <Link className="navbar-brand" to="/">
             <img
               class="d-inline-block align-top"
               src={props?.data?.logoImage}
               alt="logo-file"
               height="40"
             ></img>
-          </a>
+          </Link>
         </div>
 
         <div
@@ -59,7 +60,7 @@ export const Navigation = (props) => {
                       <h6 class="block-title fs-12 no-margin">
                         Empowerd by growth
                       </h6>
-                      <a href="contact.html" class="btn btn-black m-t-35">
+                      <a href="#contact" class="btn btn-black m-t-35">
                         Get in Touch
                       </a>
                     </div>
@@ -69,10 +70,10 @@ export const Navigation = (props) => {
                           <h6 class="sub-menu-heading">Consulting</h6>
                           <ul class="sub-menu">
                             <li>
-                              <a href="services/staffing.html">Staffing</a>
+                              <Link to="/staffing">Staffing</Link>
                             </li>{" "}
                             <li>
-                              <a href="services/resourceing.html">Resourcing</a>
+                              <Link to="/resourceing">Resourcing</Link>
                             </li>
                           </ul>
                         </div>
@@ -82,12 +83,10 @@ export const Navigation = (props) => {
                           </h6>
                           <ul class="sub-menu">
                             <li>
-                              <a href="services/applicationdevelopment.html">
-                                Web Apps
-                              </a>
+                              <Link to="/webapp">Web Apps</Link>
                             </li>
                             <li>
-                              <a href="services/mobility.html">Mobility</a>
+                              <Link to="/mobility">Mobility</Link>
                             </li>
                           </ul>
                         </div>
@@ -95,19 +94,15 @@ export const Navigation = (props) => {
                           <h6 class="sub-menu-heading">AI &amp; Analytics</h6>
                           <ul class="sub-menu">
                             <li>
-                              <a href="services/appliedai.html">Applied AI</a>
-                            </li>{" "}
+                              <Link to="/appliedai">AI &amp; Analytics</Link>
+                            </li>
                             <li>
-                              {" "}
-                              <a href="services/modelling.html">
-                                Modelling
-                              </a>{" "}
-                            </li>{" "}
+                              <Link to="/modelling">Modelling</Link>
+                            </li>
                             <li>
-                              {" "}
-                              <a href="services/da.html">Data Analytics</a>{" "}
-                            </li>{" "}
-                          </ul>{" "}
+                              <Link to="/analytics">Data Analytics</Link>
+                            </li>
+                          </ul>
                         </div>
                       </div>
                     </div>
