@@ -2,7 +2,6 @@ import { useState } from "react";
 import emailjs from "emailjs-com";
 import React from "react";
 
-
 const initialState = {
   name: "",
   email: "",
@@ -16,16 +15,22 @@ export const Contact = (props) => {
     setState((prevState) => ({ ...prevState, [name]: value }));
   };
   const clearState = () => setState({ ...initialState });
-  
-  
+
   const handleSubmit = (e) => {
     e.preventDefault();
     console.log(name, email, message);
-    
-    {/* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */ }
-    
+
+    {
+      /* replace below with your own Service ID, Template ID and Public Key from your EmailJS account */
+    }
+
     emailjs
-      .sendForm("service_ig52uyf", "template_ihpx2ad", e.target, "HLNNu8mfewttrTHug")
+      .sendForm(
+        "service_ig52uyf",
+        "template_ihpx2ad",
+        e.target,
+        "HLNNu8mfewttrTHug"
+      )
       .then(
         (result) => {
           console.log(result.text);
@@ -49,7 +54,7 @@ export const Contact = (props) => {
                   get back to you as soon as possible.
                 </p>
               </div>
-              <form name="sentMessage" validate onSubmit={handleSubmit}>
+              <form name="sentMessage" validate="true" onSubmit={handleSubmit}>
                 <div className="row">
                   <div className="col-md-6">
                     <div className="form-group">

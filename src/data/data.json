@@ -16,66 +16,19 @@
       "desc": "We navigate our clients from where they are to where they aspire to be. We do it by enabling them with a powered core that helps prioritize the execution of change."
     }
   ],
-  "Gallery": [
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/01-large.jpg",
-      "smallImage": "img/portfolio/01-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/02-large.jpg",
-      "smallImage": "img/portfolio/02-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/03-large.jpg",
-      "smallImage": "img/portfolio/03-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/04-large.jpg",
-      "smallImage": "img/portfolio/04-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/05-large.jpg",
-      "smallImage": "img/portfolio/05-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/06-large.jpg",
-      "smallImage": "img/portfolio/06-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/07-large.jpg",
-      "smallImage": "img/portfolio/07-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/08-large.jpg",
-      "smallImage": "img/portfolio/08-small.jpg"
-    },
-    {
-      "title": "Project Title",
-      "largeImage": "img/portfolio/09-large.jpg",
-      "smallImage": "img/portfolio/09-small.jpg"
-    }
-  ],
   "Services": [
     {
-      "icon": "img/portfolio/09-small.jpg",
+      "icon": "img/landing/Data analytics.jpg",
       "name": "ACCOUNTABILITY",
       "text": "Awesome notepad app. It gives you a quick and simple notepad editing experience when you write notes."
     },
     {
-      "icon": "img/portfolio/09-small.jpg",
+      "icon": "img/landing/consulting.jpg",
       "name": "QUALITY & PASSION",
       "text": "Quick chat helps you to Keep in touch with your friends and colleagues while working. It has a unique responsive design."
     },
     {
-      "icon": "img/portfolio/09-small.jpg",
+      "icon": "img/landing/Application Development.jpg",
       "name": "INTEGRITY",
       "text": "This is a very young collection of charts, with the goal of keeping these components very customizable."
     }
@@ -84,28 +37,246 @@
     "title": "Transform your business with custom built AI. We bring the Power of AI and Data Science to every business.",
     "img": "img/AI-datascience.jpg"
   },
-  "Team": [
-    {
-      "img": "img/team/01.jpg",
-      "name": "John Doe",
-      "job": "Director"
-    },
-    {
-      "img": "img/team/02.jpg",
-      "name": "Mike Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/03.jpg",
-      "name": "Jane Doe",
-      "job": "Senior Designer"
-    },
-    {
-      "img": "img/team/04.jpg",
-      "name": "Karen Doe",
-      "job": "Project Manager"
+  "Staffing": {
+    "pagetitle": "Staffing Services",
+    "parallaxImg": "img/parallax/staffing.jpeg",
+    "pageData": {
+      "section": "Consulting Services",
+      "img": "",
+      "para": [
+        "TekisHub was founded with an exclusive focus on providing high quality, cost-effective services in technology and business consulting and staff augmentation.",
+        "Today, through our continuous pursuit of excellence and ethical business practices, TekisHub has grown to become a global company. TekisHub is now supporting clients in the U.S., Canada, Singapore and India.",
+        "Finding the right IT talent for your projects or business initiatives is essential to the success. But our team of IT staffing industry experts is ready to step in and make an immediate impact on your bottom line with our extensive network of contract and permanent IT professionals. We provide a full range of information technology staffing services including contract,contract-to-hire and direct hire solutions"
+      ],
+      "section1": "Staff Augmentation",
+      "img1": "img/pages/staffing_augmentation.png",
+      "para1": [
+        "Our core service offering is providing IT staff augmentation services that help our clients execute large-scale technology initiatives. We have proven experience in delivering qualified, reliable IT professionals at an unbeatable value.",
+        "We are the #1 provider of contract IT staffing services for several of the largest companies in the country, and have been awarded supplier of the year honors by several major clients. Our team of recruiters and account managers partner with clients to provide the most qualified, reliable IT consultants in locations around the country.",
+        "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
+      ],
+      "section2": "Contract- IT Staffing",
+      "img2": "img/robot.jpg",
+      "para2": [
+        "Our contract-to-hire service provides a low-risk opportunity for you to augment your permanent IT team",
+        "We will provide experienced IT professionals for a per-determined length of time",
+        "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
+      ],
+      "section3": "Direct Hire– IT Staffing",
+      "img3": "",
+      "para3": [
+        "Hiring new employees is a resource drain, and understanding the frequent complexities of recruiting IT talent can be overwhelming",
+        "TekisHub handles your direct hire IT staffing needs, and we’ll provide you with only the most qualified and experienced professionals.",
+        "We align great companies with great people. Our direct hire and contract to hire recruiting process begins with investing the time to understand your team dynamics, key business priorities, corporate culture, and your vision for the future.",
+        "Our experienced recruiters go above and beyond to identify candidates who have demonstrated character, reliability, technical aptitude and analytical skills that can help you achieve your long-term objectives.",
+        "The referral and networking-based recruiting methodology that we utilize adds value and complements your internal recruiting efforts by providing candidates obtained through non-traditional channels."
+      ],
+      "section4": "Direct Hire– IT Staffing",
+      "img4": "",
+      "para4": [
+        "Hiring new employees is a resource drain, and understanding the frequent complexities of recruiting IT talent can be overwhelming",
+        "TekisHub handles your direct hire IT staffing needs, and we’ll provide you with only the most qualified and experienced professionals.",
+        "We align great companies with great people. Our direct hire and contract to hire recruiting process begins with investing the time to understand your team dynamics, key business priorities, corporate culture, and your vision for the future.",
+        "Our experienced recruiters go above and beyond to identify candidates who have demonstrated character, reliability, technical aptitude and analytical skills that can help you achieve your long-term objectives.",
+        "The referral and networking-based recruiting methodology that we utilize adds value and complements your internal recruiting efforts by providing candidates obtained through non-traditional channels."
+      ]
     }
-  ],
+  },
+  "Resourceing": {
+    "pagetitle": "Resourcing Services",
+    "parallaxImg": "img/parallax/resource.jpeg",
+    "pageData": {
+      "section": "Human capital is an intangible asset not listed on a company's balance sheets.",
+      "img": "",
+      "para": [
+        "TekisHub manages and prioritize work requests and set appropriate expectations with key stakeholders. Determine true resource availability. Put the right resources on the right work at the right time. Understands what roles and/or skill sets to hire to fulfill stakeholder commitments.",
+        "Human capital is said to include qualities like an employee's experience and skills. Since all labor is not considered equal. TekisHub readily invests in improving human capital by investing in the training, education, and benefits of employees."
+      ],
+      "section1": "Every technological system makes use of seven types of resources",
+      "img1": "img/robot.jpg",
+      "para1": [
+        "Our core service offering is providing IT staff augmentation services that help our clients execute large-scale technology initiatives. We have proven experience in delivering qualified, reliable IT professionals at an unbeatable value.",
+        "We are the #1 provider of contract IT staffing services for several of the largest companies in the country, and have been awarded supplier of the year honors by several major clients. Our team of recruiters and account managers partner with clients to provide the most qualified, reliable IT consultants in locations around the country.",
+        "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
+      ],
+      "section2": "A resource is a necessary asset whose main role is to help carry out a certain task or project.",
+      "img2": "img/robot.jpg",
+      "para2": [
+        {
+          "heading": "NECESSARY ASSET",
+          "desc": "A resource can be a person, a team, a tool, finances, and time. Most projects require many different resources to be completed."
+        },
+        {
+          "heading": "QUALITY RESOURCES",
+          "desc": "TekisHub is happy to provide you with quality resources for all your staffing needs."
+        },
+        {
+          "heading": "SKILLS AND EXPERTISE",
+          "desc": "Human capital refers to the skills and expertise that allows the individual to do their task more productively. Examples of Human Capital include: education, experience, and judgement. Human capital is important as it helps workers do their job more effective and efficiently."
+        }
+      ]
+    }
+  },
+  "Webapp": {
+    "pagetitle": "Application Development Services",
+    "parallaxImg": "img/parallax/webapp.jpeg",
+    "pageData": {
+      "section": "Application Development Services",
+      "img": "",
+      "para": [
+        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. Tekishub offers package and platform-led services to transform customer’s business and IT operations. Tekishub provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
+      ],
+      "section1": "Integration Services",
+      "img1": "img/robot.jpg",
+      "para1": [
+        "At Tekishub, we understand your need to adapt to changing technology trends like SOA and SaaS that transform the way software is developed (SOA) and delivered (SaaS), and provide solutions that enable you to look ahead into future business ecosystem",
+        "We also have an expertise in merging hardware with applications and work closely with service vendors to implement it.",
+        "Enhanced cost optimization through reduced cost and improved quality."
+      ],
+      "section2": "Autonomous Quality Engineering and Software Testing Services.",
+      "img2": "img/robot.jpg",
+      "para2": [
+        {
+          "heading": "INDEPENDENT TESTING",
+          "desc": "Tekishub provides independent Testing Services practice enables customers to leverage its world class software engineering practices and capitalize on the extensive knowledge repository of its testing team. Our Testing Services begin with an understanding of your unique needs."
+        },
+        {
+          "heading": "PERFORMANCE QUALITY ASSURANCE",
+          "desc": "We initiate the activity with a Strategy Definition followed by execution of the plan. Our Testing program is designed to provide performance quality assurance. Using our proven methodologies, experience, and industry leading testing tools, we customize testing services to meet your organization's specific requirements. n, Maintenance & Support"
+        },
+        {
+          "heading": "MAINTENANCE AND ENHANCEMENT SERVICES",
+          "desc": "Tekishub with its basic objective of partnering with their customers, takes responsibility of owning legacy applications and provide maintenance and enhancement services like incident management, service management, database management, technical improvements, problem management, user administration and problem assessment. Our success stories on this vertical includes Technology Migration, Platform migration and other various offerings"
+        }
+      ]
+    }
+  },
+  "Mobility": {
+    "pagetitle": "Leap ahead the competition with us",
+    "parallaxImg": "img/parallax/mobility.jpg",
+    "pageData": {
+      "section": "Mobile apps that transform your business",
+      "img": "",
+      "para": [
+        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. Tekishub offers package and platform-led services to transform customer’s business and IT operations. Tekishub provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
+      ],
+      "section1": "Integration Services",
+      "img1": "img/robot.jpg",
+      "para1": [
+        "At Tekishub, we understand your need to adapt to changing technology trends like SOA and SaaS that transform the way software is developed (SOA) and delivered (SaaS), and provide solutions that enable you to look ahead into future business ecosystem",
+        "We also have an expertise in merging hardware with applications and work closely with service vendors to implement it.",
+        "Enhanced cost optimization through reduced cost and improved quality."
+      ],
+      "section2": "Forward Thinking",
+      "img2": "img/robot.jpg",
+      "para2": [
+        {
+          "heading": "EXTENSIBLE UX DESIGN",
+          "desc": "Stay ahead of the curve with future-proof, extensible UX design that targets what your audience craves – not just today, but tomorrow."
+        },
+        {
+          "heading": "LATEST TRENDS",
+          "desc": "Our mobile app experts have knowledge of the best current technologies and what is coming to help you leverage the latest trends. Let us help you stay in front of the pack."
+        },
+        {
+          "heading": "COST OPTIMIZATION",
+          "desc": "Enhanced cost optimization through reduced cost and improved quality, Increase business value with enhanced application development services."
+        }
+      ]
+    }
+  },
+  "Modelling": {
+    "pagetitle": "Leap ahead the competition with us",
+    "parallaxImg": "img/parallax/aimodeling.jpg",
+    "pageData": {
+      "section": "Different ways to improve your business performance.",
+      "img": "",
+      "para": [
+        "Tekishub helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
+      ],
+      "section1": "Increase business value with enhanced application development services.",
+      "img1": "img/robot.jpg",
+      "para1": [
+        "Higher and faster business value with business-driven IT and application development using Agile and DevOps Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies."
+      ],
+      "section2": "Save time, save money, look more professional and win more clients.",
+      "img2": "img/robot.jpg",
+      "para2": [
+        {
+          "heading": "AGILE & DEVOPS",
+          "desc": "Higher and faster business value with business-driven IT and application development using the proven Agile framework and DevOps."
+        },
+        {
+          "heading": "NEXT GEN TECHNOLOGY",
+          "desc": "Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies."
+        },
+        {
+          "heading": "COST OPTIMIZATION",
+          "desc": "Enhanced cost optimization through reduced cost and improved quality, Increase business value with enhanced application development services."
+        }
+      ]
+    }
+  },
+  "Analytics": {
+    "pagetitle": "Leap ahead the competition with us",
+    "parallaxImg": "img/parallax/data_analytics.jpg",
+    "pageData": {
+      "section1": "Data is King",
+      "img1": "img/robot.jpg",
+      "para1": [
+        "Together our Data Engineers and Data Scientists leverage intelligence derived from your existing data using AWS, Azure, Google Cloud Platform; Hbase, Cassandra, Databricks, etc. Make a difference with data using machine learning, deep learning, artificial intelligence, NLP, and data modeling."
+      ],
+      "section2": "",
+      "img2": "img/robot.jpg",
+      "para2": [
+        {
+          "heading": "PREDICATIVE ANALYTICS",
+          "desc": "Predict future events to identify risks, improve efficiency and quality, and develop competitive products and services using statistical and machine learning methods."
+        },
+        {
+          "heading": "BIG DATA",
+          "desc": "Extract intelligence from big data for a unified view of the complete picture with next-gen solutions. Minimize time-to-value with scalable platforms, high bandwidth and accelerated analytics."
+        },
+        {
+          "heading": "COST OPTIMIZATION",
+          "desc": "Enhanced cost optimization through reduced cost and improved quality, Increase business value with enhanced application development services."
+        }
+      ]
+    }
+  },
+  "Appliedai": {
+    "pagetitle": "Leap ahead the competition with us",
+    "parallaxImg": "img/parallax/applied_ai.jpg",
+    "pageData": {
+      "section": "Different ways to improve your business performance.",
+      "img": "",
+      "para": [
+        "Tekishub helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
+      ],
+      "section1": "Increase business value with enhanced application development services.",
+      "img1": "img/robot.jpg",
+      "para1": [
+        "Higher and faster business value with business-driven IT and application development using Agile and DevOps Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies.",
+        "Enhanced cost optimization through reduced cost and improved quality."
+      ],
+      "section2": "Save time, save money, look more professional and win more clients.",
+      "img2": "img/robot.jpg",
+      "para2": [
+        {
+          "heading": "AGILE & DEVOPS",
+          "desc": "Higher and faster business value with business-driven IT and application development using the proven Agile framework and DevOps."
+        },
+        {
+          "heading": "NEXT GEN TECHNOLOGY",
+          "desc": "Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies."
+        },
+        {
+          "heading": "COST OPTIMIZATION",
+          "desc": "Enhanced cost optimization through reduced cost and improved quality, Increase business value with enhanced application development services."
+        }
+      ]
+    }
+  },
   "Contact": {
     "address": "4321 California St, San Francisco, CA 12345 ",
     "phone": "+1 123 456 1234",
@@ -118,17 +289,17 @@
     {
       "icon": "img/landing/consulting.jpg",
       "title": "Consulting",
-      "link": "#consulting"
+      "link": "staffing"
     },
     {
       "icon": "img/landing/Application Development.jpg",
       "title": "Application Development",
-      "link": "#applicationdevelopment"
+      "link": "webapp"
     },
     {
       "icon": "img/landing/Data analytics.jpg",
       "title": "AI & Analytics",
-      "link": "#analytics"
+      "link": "analytics"
     }
   ]
 }
