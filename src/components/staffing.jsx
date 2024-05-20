@@ -9,7 +9,9 @@ export const Staffing = (props) => {
         style={{ backgroundImage: `url(${props?.data?.parallaxImg})` }}
       >
         <div className="parallax-overlay">
-          <h1 className="parallax-text" aria-hidden="true">{props?.data?.pagetitle}</h1>
+          <h1 className="parallax-text" aria-hidden="true">
+            {props?.data?.pagetitle}
+          </h1>
         </div>
       </div>
       <section class="bg-master-lightest pb-85 pt-75">
@@ -51,7 +53,7 @@ export const Staffing = (props) => {
             </div>
             <div class="col-sm-5 text-center">
               <img
-                alt=""
+                alt="staffing1"
                 class="image-responsive-height image-responsive-width"
                 src={props?.data?.pageData?.img1}
               />
@@ -59,7 +61,7 @@ export const Staffing = (props) => {
           </div>
         </div>
       </section>
-      <section class="bg-master-lightest pb-85 pt-75 no-overflow">
+      <section class="pb-85 pt-75 no-overflow">
         <div class="container">
           <div class="row">
             <div class="col-sm-5">
@@ -67,11 +69,12 @@ export const Staffing = (props) => {
                 <img
                   src={props?.data?.pageData?.img2}
                   class="image-responsive-height"
-                  alt=""
+                  alt="staffing2"
                 />
               </div>
             </div>
-            <div class="col-sm-5">
+            <div className="col-sm-1"></div>
+            <div class="col-sm-6">
               <h1 class="mt-5 mb-20">{props?.data?.pageData?.section2}</h1>
               {props?.data?.pageData?.para2
                 ? props?.data?.pageData?.para2?.map((k, j) => (
@@ -91,7 +94,7 @@ export const Staffing = (props) => {
       <section class="bg-warning pb-85 pt-75 no-overflow">
         <div class="container">
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-6">
               <h1 class="m-t-5 m-b-20">{props?.data?.pageData?.section3}</h1>
               {props?.data?.pageData?.para3
                 ? props?.data?.pageData?.para3?.map((k, j) => (
@@ -105,11 +108,11 @@ export const Staffing = (props) => {
                   ))
                 : "Loading ..."}
             </div>
-            <div class="col-sm-5">
+            <div class="col-sm-6">
               <img
                 src={props?.data?.pageData?.img3}
-                class="image-responsive-height"
-                alt=""
+                class="image-responsive-width"
+                alt="staffing3"
               />
             </div>
           </div>
@@ -119,14 +122,14 @@ export const Staffing = (props) => {
         <div class="container">
           <div class="block-title hint-text no-margin"></div>
           <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-6">
               <img
                 src={props?.data?.pageData?.img4}
                 class="image-responsive-height lazy"
-                alt=""
+                alt="staffing4"
               />
             </div>
-            <div class="col-sm-7">
+            <div class="col-sm-6">
               <h1 class="mt-5 mb-20">{props?.data?.pageData?.section4}</h1>
               {props?.data?.pageData?.para4
                 ? props?.data?.pageData?.para4?.map((k, j) => (

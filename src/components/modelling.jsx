@@ -18,14 +18,14 @@ export const Modelling = (props) => {
       <section class="bg-master-lightest pb-85 pt-75">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-4">
+            <div class="col-xs-12 col-md-5">
               <h1 class="mt-5">
                 {props?.data?.pageData?.section
                   ? props?.data?.pageData?.section
                   : ""}
               </h1>
             </div>
-            <div class="col-xs-7 col-md-8">
+            <div class="col-xs-12 col-md-7">
               {props?.data?.pageData?.para
                 ? props?.data?.pageData?.para.map((k, j) => (
                     <p key={`${props?.data?.pageData?.section}-${j}`}>
@@ -42,7 +42,7 @@ export const Modelling = (props) => {
         <div class="container">
           <div class="block-title hint-text"></div>
           <div class="row">
-            <div class="col-sm-5">
+            <div class="col-sm-6">
               <h1 class="mt-5 mb-20">
                 {props?.data?.pageData?.section1
                   ? props?.data?.pageData?.section1
@@ -51,7 +51,7 @@ export const Modelling = (props) => {
               {props?.data?.pageData?.para1
                 ? props?.data?.pageData?.para1.map((l, q) => (
                     <p
-                      className="mb-20"
+                      className="pt-20 mb-20"
                       key={`${props?.data?.pageData?.section1}-${q}`}
                     >
                       {l}
@@ -61,9 +61,9 @@ export const Modelling = (props) => {
                 : "Loading ..."}
             </div>
             <div class="col-sm-2"></div>
-            <div class="col-sm-5 text-center">
+            <div class="col-sm-6 text-center">
               <img
-                alt=""
+                alt="modelling2"
                 class="image-responsive-height"
                 src={props?.data?.pageData?.img1}
               />

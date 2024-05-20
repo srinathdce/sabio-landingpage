@@ -52,7 +52,7 @@ export const Webapp = (props) => {
             </div>
             <div class="col-sm-5 text-center">
               <img
-                alt=""
+                alt="webapp2"
                 class="image-responsive-height"
                 src={props?.data?.pageData?.img1}
               />
@@ -68,7 +68,7 @@ export const Webapp = (props) => {
                 <img
                   src={props?.data?.pageData?.img2}
                   class="image-responsive-height"
-                  alt=""
+                  alt="webapp1"
                 />
               </div>
             </div>

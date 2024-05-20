@@ -4,7 +4,7 @@
   },
   "Header": {
     "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "We bring you powerful advantages to drive your digital transformations."
   },
   "About": [
     {
@@ -56,19 +56,19 @@
         "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
       ],
       "section2": "Contract- IT Staffing",
-      "img2": "img/parallax/contract-it-staffing.jpeg",
+      "img2": "img/parallax/contract-it-staffing.png",
       "para2": [
         "Our contract-to-hire service provides a low-risk opportunity for you to augment your permanent IT team",
         "We will provide experienced IT professionals for a per-determined length of time",
         "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
       ],
       "section3": "Contract-to-Hire-IT Staffing",
-      "img3": "img/services/contract-hire.jpeg",
+      "img3": "img/services/contract-hire.png",
       "para3": [
         "Our contract-to-hire service provides a low-risk opportunity for you to augment your permanent IT team",
         "We will provide experienced IT professionals for a per-determined length of time",
         "At the end of the contract, choose to bring that IT contractor aboard full-time,or part ways amicably."
-         ],
+      ],
       "section4": "Direct Hire– IT Staffing",
       "img4": "img/services/direct-hire.jpeg",
       "para4": [
@@ -91,14 +91,14 @@
         "Human capital is said to include qualities like an employee's experience and skills. Since all labor is not considered equal. SabioMinds readily invests in improving human capital by investing in the training, education, and benefits of employees."
       ],
       "section1": "Every technological system makes use of seven types of resources",
-      "img1": "img/robot.jpg",
+      "img1": "img/services/IT-resources.jpg",
       "para1": [
         "Our core service offering is providing IT staff augmentation services that help our clients execute large-scale technology initiatives. We have proven experience in delivering qualified, reliable IT professionals at an unbeatable value.",
         "We are the #1 provider of contract IT staffing services for several of the largest companies in the country, and have been awarded supplier of the year honors by several major clients. Our team of recruiters and account managers partner with clients to provide the most qualified, reliable IT consultants in locations around the country.",
         "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
       ],
       "section2": "A resource is a necessary asset whose main role is to help carry out a certain task or project.",
-      "img2": "img/robot.jpg",
+      "img2": "img/services/focus.jpg",
       "para2": [
         {
           "heading": "NECESSARY ASSET",
@@ -159,9 +159,9 @@
         "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. SabioMinds offers package and platform-led services to transform customer’s business and IT operations. SabioMinds provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
       ],
       "section1": "Mobile apps that transform your business",
-      "img1": "img/services/mobile-apps.jpg",
+      "img1": "img/services/Mobile App_Visualize.jpg",
       "para1": [
-       "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. SabioMinds offers package and platform-led services to transform customer’s business and IT operations. SabioMinds provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
+        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. SabioMinds offers package and platform-led services to transform customer’s business and IT operations. SabioMinds provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
       ],
       "section2": "Forward Thinking",
       "img2": "img/services/ux-design.jpg",
@@ -191,7 +191,7 @@
         "SabioMinds helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
       ],
       "section1": "Increase business value with enhanced application development services.",
-      "img1": "img/robot.jpg",
+      "img1": "img/services/Analysis.jpg",
       "para1": [
         "Higher and faster business value with business-driven IT and application development using Agile and DevOps Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies."
       ],
@@ -218,12 +218,12 @@
     "parallaxImg": "img/parallax/data_analytics.jpg",
     "pageData": {
       "section1": "Data is King",
-      "img1": "img/robot.jpg",
+      "img1": "img/services/analytics.jpg",
       "para1": [
         "Together our Data Engineers and Data Scientists leverage intelligence derived from your existing data using AWS, Azure, Google Cloud Platform; Hbase, Cassandra, Databricks, etc. Make a difference with data using machine learning, deep learning, artificial intelligence, NLP, and data modeling."
       ],
       "section2": "",
-      "img2": "img/robot.jpg",
+      "img2": "img/services/Robot Analyzing.jpg",
       "para2": [
         {
           "heading": "PREDICATIVE ANALYTICS",
