@@ -13,7 +13,7 @@ export const Mobility = (props) => {
           <h1 className="parallax-text">{props?.data?.pagetitle}</h1>
         </div>{" "}
       </div>
-      <section class="bg-master-lightest pb-85 pt-75">
+  {/*     <section class="bg-master-lightest pb-85 pt-75">
         <div class="container">
           <div class="row">
             <div class="col-xs-12 col-md-4">
@@ -31,7 +31,7 @@ export const Mobility = (props) => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       <section class="bg-warning pb-85 pt-75 no-overflow">
         <div class="container">
           <div class="block-title hint-text"></div>

@@ -44,8 +44,8 @@
       "section": "Consulting Services",
       "img": "",
       "para": [
-        "TekisHub was founded with an exclusive focus on providing high quality, cost-effective services in technology and business consulting and staff augmentation.",
-        "Today, through our continuous pursuit of excellence and ethical business practices, TekisHub has grown to become a global company. TekisHub is now supporting clients in the U.S., Canada, Singapore and India.",
+        "SabioMinds was founded with an exclusive focus on providing high quality, cost-effective services in technology and business consulting and staff augmentation.",
+        "Today, through our continuous pursuit of excellence and ethical business practices, SabioMinds has grown to become a global company. SabioMinds is now supporting clients in the U.S., Canada, Singapore and India.",
         "Finding the right IT talent for your projects or business initiatives is essential to the success. But our team of IT staffing industry experts is ready to step in and make an immediate impact on your bottom line with our extensive network of contract and permanent IT professionals. We provide a full range of information technology staffing services including contract,contract-to-hire and direct hire solutions"
       ],
       "section1": "Staff Augmentation",
@@ -56,26 +56,24 @@
         "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
       ],
       "section2": "Contract- IT Staffing",
-      "img2": "img/robot.jpg",
+      "img2": "img/parallax/contract-it-staffing.jpeg",
       "para2": [
         "Our contract-to-hire service provides a low-risk opportunity for you to augment your permanent IT team",
         "We will provide experienced IT professionals for a per-determined length of time",
         "We provide the talent that technology leaders need to ensure smooth system implementation, enhancement, upgrade and production support initiatives."
       ],
-      "section3": "Direct Hire– IT Staffing",
-      "img3": "",
+      "section3": "Contract-to-Hire-IT Staffing",
+      "img3": "img/services/contract-hire.jpeg",
       "para3": [
-        "Hiring new employees is a resource drain, and understanding the frequent complexities of recruiting IT talent can be overwhelming",
-        "TekisHub handles your direct hire IT staffing needs, and we’ll provide you with only the most qualified and experienced professionals.",
-        "We align great companies with great people. Our direct hire and contract to hire recruiting process begins with investing the time to understand your team dynamics, key business priorities, corporate culture, and your vision for the future.",
-        "Our experienced recruiters go above and beyond to identify candidates who have demonstrated character, reliability, technical aptitude and analytical skills that can help you achieve your long-term objectives.",
-        "The referral and networking-based recruiting methodology that we utilize adds value and complements your internal recruiting efforts by providing candidates obtained through non-traditional channels."
-      ],
+        "Our contract-to-hire service provides a low-risk opportunity for you to augment your permanent IT team",
+        "We will provide experienced IT professionals for a per-determined length of time",
+        "At the end of the contract, choose to bring that IT contractor aboard full-time,or part ways amicably."
+         ],
       "section4": "Direct Hire– IT Staffing",
-      "img4": "",
+      "img4": "img/services/direct-hire.jpeg",
       "para4": [
         "Hiring new employees is a resource drain, and understanding the frequent complexities of recruiting IT talent can be overwhelming",
-        "TekisHub handles your direct hire IT staffing needs, and we’ll provide you with only the most qualified and experienced professionals.",
+        "SabioMinds handles your direct hire IT staffing needs, and we’ll provide you with only the most qualified and experienced professionals.",
         "We align great companies with great people. Our direct hire and contract to hire recruiting process begins with investing the time to understand your team dynamics, key business priorities, corporate culture, and your vision for the future.",
         "Our experienced recruiters go above and beyond to identify candidates who have demonstrated character, reliability, technical aptitude and analytical skills that can help you achieve your long-term objectives.",
         "The referral and networking-based recruiting methodology that we utilize adds value and complements your internal recruiting efforts by providing candidates obtained through non-traditional channels."
@@ -89,8 +87,8 @@
       "section": "Human capital is an intangible asset not listed on a company's balance sheets.",
       "img": "",
       "para": [
-        "TekisHub manages and prioritize work requests and set appropriate expectations with key stakeholders. Determine true resource availability. Put the right resources on the right work at the right time. Understands what roles and/or skill sets to hire to fulfill stakeholder commitments.",
-        "Human capital is said to include qualities like an employee's experience and skills. Since all labor is not considered equal. TekisHub readily invests in improving human capital by investing in the training, education, and benefits of employees."
+        "SabioMinds manages and prioritize work requests and set appropriate expectations with key stakeholders. Determine true resource availability. Put the right resources on the right work at the right time. Understands what roles and/or skill sets to hire to fulfill stakeholder commitments.",
+        "Human capital is said to include qualities like an employee's experience and skills. Since all labor is not considered equal. SabioMinds readily invests in improving human capital by investing in the training, education, and benefits of employees."
       ],
       "section1": "Every technological system makes use of seven types of resources",
       "img1": "img/robot.jpg",
@@ -108,7 +106,7 @@
         },
         {
           "heading": "QUALITY RESOURCES",
-          "desc": "TekisHub is happy to provide you with quality resources for all your staffing needs."
+          "desc": "SabioMinds is happy to provide you with quality resources for all your staffing needs."
         },
         {
           "heading": "SKILLS AND EXPERTISE",
@@ -124,21 +122,21 @@
       "section": "Application Development Services",
       "img": "",
       "para": [
-        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. Tekishub offers package and platform-led services to transform customer’s business and IT operations. Tekishub provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
+        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. SabioMinds offers package and platform-led services to transform customer’s business and IT operations. SabioMinds provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
       ],
       "section1": "Integration Services",
-      "img1": "img/robot.jpg",
+      "img1": "img/services/application-integration-service.jpg",
       "para1": [
-        "At Tekishub, we understand your need to adapt to changing technology trends like SOA and SaaS that transform the way software is developed (SOA) and delivered (SaaS), and provide solutions that enable you to look ahead into future business ecosystem",
+        "At SabioMinds, we understand your need to adapt to changing technology trends like SOA and SaaS that transform the way software is developed (SOA) and delivered (SaaS), and provide solutions that enable you to look ahead into future business ecosystem",
         "We also have an expertise in merging hardware with applications and work closely with service vendors to implement it.",
         "Enhanced cost optimization through reduced cost and improved quality."
       ],
       "section2": "Autonomous Quality Engineering and Software Testing Services.",
-      "img2": "img/robot.jpg",
+      "img2": "img/services/Automated-Testing.png",
       "para2": [
         {
           "heading": "INDEPENDENT TESTING",
-          "desc": "Tekishub provides independent Testing Services practice enables customers to leverage its world class software engineering practices and capitalize on the extensive knowledge repository of its testing team. Our Testing Services begin with an understanding of your unique needs."
+          "desc": "SabioMinds provides independent Testing Services practice enables customers to leverage its world class software engineering practices and capitalize on the extensive knowledge repository of its testing team. Our Testing Services begin with an understanding of your unique needs."
         },
         {
           "heading": "PERFORMANCE QUALITY ASSURANCE",
@@ -146,7 +144,7 @@
         },
         {
           "heading": "MAINTENANCE AND ENHANCEMENT SERVICES",
-          "desc": "Tekishub with its basic objective of partnering with their customers, takes responsibility of owning legacy applications and provide maintenance and enhancement services like incident management, service management, database management, technical improvements, problem management, user administration and problem assessment. Our success stories on this vertical includes Technology Migration, Platform migration and other various offerings"
+          "desc": "SabioMinds with its basic objective of partnering with their customers, takes responsibility of owning legacy applications and provide maintenance and enhancement services like incident management, service management, database management, technical improvements, problem management, user administration and problem assessment. Our success stories on this vertical includes Technology Migration, Platform migration and other various offerings"
         }
       ]
     }
@@ -158,17 +156,15 @@
       "section": "Mobile apps that transform your business",
       "img": "",
       "para": [
-        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. Tekishub offers package and platform-led services to transform customer’s business and IT operations. Tekishub provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
+        "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. SabioMinds offers package and platform-led services to transform customer’s business and IT operations. SabioMinds provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
       ],
-      "section1": "Integration Services",
-      "img1": "img/robot.jpg",
+      "section1": "Mobile apps that transform your business",
+      "img1": "img/services/mobile-apps.jpg",
       "para1": [
-        "At Tekishub, we understand your need to adapt to changing technology trends like SOA and SaaS that transform the way software is developed (SOA) and delivered (SaaS), and provide solutions that enable you to look ahead into future business ecosystem",
-        "We also have an expertise in merging hardware with applications and work closely with service vendors to implement it.",
-        "Enhanced cost optimization through reduced cost and improved quality."
+       "With the fast changing market conditions and business scenarios, enterprises are expecting unprecedented support and business continuity from their IT application portfolios. SabioMinds offers package and platform-led services to transform customer’s business and IT operations. SabioMinds provides application services spanning from blue printing, development, deployment, global rollouts to application maintenance and support. With a strong team of domain experts in integration, best-in-class implementation and upgrade tools and accelerators."
       ],
       "section2": "Forward Thinking",
-      "img2": "img/robot.jpg",
+      "img2": "img/services/ux-design.jpg",
       "para2": [
         {
           "heading": "EXTENSIBLE UX DESIGN",
@@ -192,7 +188,7 @@
       "section": "Different ways to improve your business performance.",
       "img": "",
       "para": [
-        "Tekishub helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
+        "SabioMinds helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
       ],
       "section1": "Increase business value with enhanced application development services.",
       "img1": "img/robot.jpg",
@@ -200,7 +196,7 @@
         "Higher and faster business value with business-driven IT and application development using Agile and DevOps Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies."
       ],
       "section2": "Save time, save money, look more professional and win more clients.",
-      "img2": "img/robot.jpg",
+      "img2": "img/services/nextgen-technology.jpg",
       "para2": [
         {
           "heading": "AGILE & DEVOPS",
@@ -251,16 +247,16 @@
       "section": "Different ways to improve your business performance.",
       "img": "",
       "para": [
-        "Tekishub helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
+        "SabioMinds helps businesses progress time-to-market by reducing time spent across all stages of the application development lifecycle through automation, IPs, open source, and licensed third party tools. By leveraging the most proven Global Agile methodology, our customers benefit from quicker development lifecycles and early project completion. Our highly efficient DevOps team provides continuous support throughout the lifecycle with progressive enhancements and meeting targets, thereby improving business performance."
       ],
       "section1": "Increase business value with enhanced application development services.",
-      "img1": "img/robot.jpg",
+      "img1": "img/services/ai-devservice.jpg",
       "para1": [
         "Higher and faster business value with business-driven IT and application development using Agile and DevOps Technology excellence through automation, continuous delivery, application modernization, and leveraging next-generation technologies.",
         "Enhanced cost optimization through reduced cost and improved quality."
       ],
       "section2": "Save time, save money, look more professional and win more clients.",
-      "img2": "img/robot.jpg",
+      "img2": "img/services/nextgen-technology.jpg",
       "para2": [
         {
           "heading": "AGILE & DEVOPS",
