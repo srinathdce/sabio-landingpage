@@ -29,8 +29,11 @@ body {
 /* ===================================================== */
 .image-responsive-height {
   height: 80%;
-  width: 80%;
   overflow: hidden;
+}
+
+.image-responsive-width {
+  width: 80%;
 }
 
 .pb-85 {
@@ -49,4 +52,10 @@ body {
 }
 .bg-warning {
   background-color: #f8d053;
+}
+
+/* ============================================= */
+.image-responsive-height-100 {
+  height: 100%;
+  overflow: hidden;
 }

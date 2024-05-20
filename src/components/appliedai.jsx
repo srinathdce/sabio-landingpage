@@ -16,10 +16,10 @@ export const Appliedai = (props) => {
       <section class="bg-master-lightest pb-85 pt-75">
         <div class="container">
           <div class="row">
-            <div class="col-xs-12 col-md-4">
-              <h1 class="mt-5">{props?.data?.pageData?.section}</h1>
+            <div class="col-xs-12 col-md-5">
+              <h1>{props?.data?.pageData?.section}</h1>
             </div>
-            <div class="col-xs-7 col-md-8">
+            <div class="col-xs-12 col-md-7">
               {props?.data?.pageData?.para
                 ? props?.data?.pageData?.para.map((k, j) => (
                     <p key={`${props?.data?.pageData?.section}-${j}`}>
@@ -41,7 +41,7 @@ export const Appliedai = (props) => {
               {props?.data?.pageData?.para1
                 ? props?.data?.pageData?.para1.map((l, q) => (
                     <p
-                      className="mb-20"
+                      className="pt-20 mb-20"
                       key={`${props?.data?.pageData?.section1}-${q}`}
                     >
                       {l}
@@ -52,7 +52,7 @@ export const Appliedai = (props) => {
             </div>
             <div class="col-md-5 text-center">
               <img
-                alt=""
+                alt="appliedai1"
                 class="image-responsive-height"
                 src={props?.data?.pageData?.img1}
               />
@@ -68,11 +68,11 @@ export const Appliedai = (props) => {
                 <img
                   src={props?.data?.pageData?.img2}
                   class="image-responsive-height"
-                  alt=""
+                  alt="appliedai2"
                 />
               </div>
             </div>
-            <div class="col-md-5 ml-3">
+            <div class="col-md-6 ml-3">
               <h1 class="mt-5 mb-20">{props?.data?.pageData?.section2}</h1>
               <ul className="pt-20">
                 {props?.data?.pageData?.para2

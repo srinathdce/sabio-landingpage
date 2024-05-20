@@ -52,7 +52,7 @@ export const Resourceing = (props) => {
             </div>
             <div class="col-sm-5 text-center">
               <img
-                alt=""
+                alt="resourceing2"
                 class="image-responsive-height"
                 src={props?.data?.pageData?.img1}
               />
@@ -67,8 +67,8 @@ export const Resourceing = (props) => {
               <div class="content-mask-md">
                 <img
                   src={props?.data?.pageData?.img2}
-                  class="image-responsive-height"
-                  alt=""
+                  class="image-responsive-height-100 image-responsive-width"
+                  alt="resourceing3"
                 />
               </div>
             </div>

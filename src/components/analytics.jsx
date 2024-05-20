@@ -24,7 +24,7 @@ export const Analytics = (props) => {
               {props?.data?.pageData?.para1
                 ? props?.data?.pageData?.para1.map((l, q) => (
                     <p
-                      className="mb-20"
+                      className="pt-20 mb-20"
                       key={`${props?.data?.pageData?.section1}-${q}`}
                     >
                       {l}
@@ -33,10 +33,9 @@ export const Analytics = (props) => {
                   ))
                 : "Loading ..."}
             </div>
-            <div className="col-md-1"></div>
-            <div class="col-md-5 text-center">
+            <div class="col-md-6 text-center">
               <img
-                alt=""
+                alt="analytics2"
                 class="image-responsive-height"
                 src={props?.data?.pageData?.img1}
               />
@@ -52,7 +51,7 @@ export const Analytics = (props) => {
                 <img
                   src={props?.data?.pageData?.img2}
                   class="image-responsive-height"
-                  alt=""
+                  alt="analytics1"
                 />
               </div>
             </div>
