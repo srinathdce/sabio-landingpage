@@ -35,7 +35,7 @@ h5 {
   font-weight: 700;
   line-height: 20px;
 }
-h6{
+h6 {
   font-family: "Lato";
 }
 p {
@@ -571,6 +571,12 @@ label {
   color: #608dfd;
   background: #fff;
 }
+/* Content Section */
+#content .title {
+  color: #ffffff;
+  font-weight: 600 !important;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
@@ -662,7 +668,21 @@ label {
     border-bottom: 2px #fff solid;
   }
 }
-
+.social {
+  color: #ffffff;
+  .fa-facebook {
+    background: #3b5998;
+  }
+  .fa-twitter {
+    background: #55acee;
+  }
+  .fa-youtube {
+    background: #bb0000;
+  }
+  .fa-youtube:hover {
+    color: #bb0000 !important;
+  }
+}
 /* ======================MEGA====================== */
 .mega {
   display: none;
@@ -750,4 +770,11 @@ label {
 }
 .mega .btn-black.m-t-35 {
   margin-top: 35px;
+}
+@media only screen and (max-width: 600px) {
+  .mega {
+    display: block;
+    margin-top: 5%;
+    z-index: 9999;
+  }
 }

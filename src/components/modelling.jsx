@@ -43,7 +43,7 @@ export const Modelling = (props) => {
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-sm-6">
-              <h1 class="mt-5 mb-20">
+              <h1 class="page-headings">
                 {props?.data?.pageData?.section1
                   ? props?.data?.pageData?.section1
                   : ""}
@@ -84,12 +84,12 @@ export const Modelling = (props) => {
               </div>
             </div>
             <div class="col-sm-5 ml-3">
-              <h1 class="mt-5 mb-20">
+              <h1 class="page-headings">
                 {props?.data?.pageData?.section2
                   ? props?.data?.pageData?.section2
                   : ""}
               </h1>
-              <ul className="pt-20">
+              <ul>
                 {props?.data?.pageData?.para2
                   ? props?.data?.pageData?.para2?.map((k, j) => (
                       <li
