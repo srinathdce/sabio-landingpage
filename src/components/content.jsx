@@ -5,7 +5,7 @@ export const Content = (props) => {
     <div id="content">
       <div className="container">
         <div className="row flex-box">
-          <div className="col-xs-12 col-md-5">
+          <div className="col-xs-12 col-md-6">
             <h1 className="title">{props?.data?.title}</h1>
           </div>
           <div className="col-xs-12 col-md-4 pull-left full-height">

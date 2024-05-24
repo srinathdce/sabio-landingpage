@@ -20,7 +20,7 @@ export const Staffing = (props) => {
             <div class="col-xs-12 col-md-4">
               <h1 class="mt-5">{props?.data?.pageData?.section}</h1>
             </div>
-            <div class="col-xs-7 col-md-8">
+            <div class="col-xs-12 col-md-8">
               {props?.data?.pageData?.para
                 ? props?.data?.pageData?.para.map((k, j) => (
                     <p key={`${props?.data?.pageData?.section}-${j}`}>
@@ -38,7 +38,9 @@ export const Staffing = (props) => {
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-sm-7">
-              <h1 class="mt-5 mb-20">{props?.data?.pageData?.section1}</h1>
+              <h1 class="page-headings">
+                {props?.data?.pageData?.section1}
+              </h1>
               {props?.data?.pageData?.para1
                 ? props?.data?.pageData?.para1.map((l, q) => (
                     <p
@@ -75,7 +77,9 @@ export const Staffing = (props) => {
             </div>
             <div className="col-sm-1"></div>
             <div class="col-sm-6">
-              <h1 class="mt-5 mb-20">{props?.data?.pageData?.section2}</h1>
+              <h1 class="page-headings">
+                {props?.data?.pageData?.section2}
+              </h1>
               {props?.data?.pageData?.para2
                 ? props?.data?.pageData?.para2?.map((k, j) => (
                     <p
@@ -95,11 +99,13 @@ export const Staffing = (props) => {
         <div class="container">
           <div class="row">
             <div class="col-sm-6">
-              <h1 class="m-t-5 m-b-20">{props?.data?.pageData?.section3}</h1>
+              <h1 class="page-headings">
+                {props?.data?.pageData?.section3}
+              </h1>
               {props?.data?.pageData?.para3
                 ? props?.data?.pageData?.para3?.map((k, j) => (
                     <p
-                      className="m-b-20"
+                      className="mb-20"
                       key={`${props?.data?.pageData?.section3}-${j}`}
                     >
                       {k}
@@ -130,7 +136,7 @@ export const Staffing = (props) => {
               />
             </div>
             <div class="col-sm-6">
-              <h1 class="mt-5 mb-20">{props?.data?.pageData?.section4}</h1>
+              <h1 class="page-headings">{props?.data?.pageData?.section4}</h1>
               {props?.data?.pageData?.para4
                 ? props?.data?.pageData?.para4?.map((k, j) => (
                     <p

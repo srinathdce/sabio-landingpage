@@ -20,7 +20,7 @@ export const Analytics = (props) => {
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-md-6">
-              <h1 class="mt-5 mb-20">{props?.data?.pageData?.section1}</h1>
+              <h1 class="page-headings">{props?.data?.pageData?.section1}</h1>
               {props?.data?.pageData?.para1
                 ? props?.data?.pageData?.para1.map((l, q) => (
                     <p

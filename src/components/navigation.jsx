@@ -64,7 +64,7 @@ export const Navigation = (props) => {
                         Get in Touch
                       </a>
                     </div>
-                    <div class="col-md-8">
+                    <div class="col-md-8 col-xs-12">
                       <div class="row">
                         <div class="col-md-4">
                           <h6 class="sub-menu-heading">Consulting</h6>

@@ -37,7 +37,7 @@ export const Appliedai = (props) => {
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-md-7">
-              <h1 class="mt-5 mb-20">{props?.data?.pageData?.section1}</h1>
+              <h1 class="page-headings">{props?.data?.pageData?.section1}</h1>
               {props?.data?.pageData?.para1
                 ? props?.data?.pageData?.para1.map((l, q) => (
                     <p
@@ -73,8 +73,8 @@ export const Appliedai = (props) => {
               </div>
             </div>
             <div class="col-md-6 ml-3">
-              <h1 class="mt-5 mb-20">{props?.data?.pageData?.section2}</h1>
-              <ul className="pt-20">
+              <h1 class="page-headings">{props?.data?.pageData?.section2}</h1>
+              <ul>
                 {props?.data?.pageData?.para2
                   ? props?.data?.pageData?.para2?.map((k, j) => (
                       <li
