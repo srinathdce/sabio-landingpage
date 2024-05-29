@@ -777,4 +777,25 @@ label {
     margin-top: 5%;
     z-index: 9999;
   }
+  .service-class:hover {
+    .mega {
+      display: block;
+      position: relative;
+      padding: 0%;
+      margin-left: 0;
+      margin-top: 5%;
+    }
+  }
+  .slider-overlay-text {
+    font-size: 15px;
+    left: 50%;
+    width: 0;
+    overflow: visible;
+  }
+  .swaper {
+    width: 100%;
+  }
+  .feature-imgs {
+    padding-left: 0;
+  }
 }

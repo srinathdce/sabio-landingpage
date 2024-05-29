@@ -49,7 +49,7 @@ export const Navigation = (props) => {
                 <i className="fa fa-caret"></i>
               </a>
               <span className="arrow"></span>
-              <nav class="mega">
+              <div class="mega">
                 <div class="container">
                   <div class="row">
                     <div class="col-md-4 p-l-25 sm-p-l-0 hidden-sm hidden-xs">
@@ -64,7 +64,7 @@ export const Navigation = (props) => {
                         Get in Touch
                       </a>
                     </div>
-                    <div class="col-md-8 col-xs-12">
+                    <div class="col-lg-8 col-xs-12">
                       <div class="row">
                         <div class="col-md-4">
                           <h6 class="sub-menu-heading">Consulting</h6>
@@ -108,7 +108,7 @@ export const Navigation = (props) => {
                     </div>
                   </div>
                 </div>
-              </nav>
+              </div>
             </li>
             <li>
               <a href="#content" className="page-scroll">
