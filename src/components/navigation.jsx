@@ -23,7 +23,7 @@ export const Navigation = (props) => {
               class="d-inline-block align-top"
               src={props?.data?.logoImage}
               alt="logo-file"
-              height="40"
+              height="60"
             ></img>
           </Link>
         </div>
