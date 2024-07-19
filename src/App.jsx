@@ -16,6 +16,8 @@ import { Analytics } from "./components/analytics";
 import { Appliedai } from "./components/appliedai";
 import JsonData from "./data/data.json";
 import SmoothScroll from "smooth-scroll";
+import ScrollToTop from "./components/ScrollToTop";
+
 import "./App.css";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
@@ -36,6 +38,7 @@ const App = () => {
           index
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Header data={landingPageData.Header} />
               <Features data={landingPageData.Features} />
@@ -50,6 +53,7 @@ const App = () => {
           path="staffing"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Staffing data={landingPageData.Staffing} />
               <Contact data={landingPageData.Contact} />
@@ -60,6 +64,7 @@ const App = () => {
           path="resourceing"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Resourceing data={landingPageData.Resourceing} />
               <Contact data={landingPageData.Contact} />
@@ -70,6 +75,7 @@ const App = () => {
           path="webapp"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Webapp data={landingPageData.Webapp} />
               <Contact data={landingPageData.Contact} />
@@ -80,6 +86,7 @@ const App = () => {
           path="mobility"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Mobility data={landingPageData.Mobility} />
               <Contact data={landingPageData.Contact} />
@@ -90,6 +97,7 @@ const App = () => {
           path="modelling"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Modelling data={landingPageData.Modelling} />
               <Contact data={landingPageData.Contact} />
@@ -100,6 +108,7 @@ const App = () => {
           path="analytics"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Analytics data={landingPageData.Analytics} />
               <Contact data={landingPageData.Contact} />
@@ -110,6 +119,7 @@ const App = () => {
           path="appliedai"
           element={
             <div>
+              <ScrollToTop></ScrollToTop>
               <Navigation data={landingPageData.Navigation} />
               <Appliedai data={landingPageData.Appliedai} />
               <Contact data={landingPageData.Contact} />
