@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-export const Navigation = (props) => {
+export const NavigationInternal = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top header">
       <div className="container">
@@ -34,20 +34,20 @@ export const Navigation = (props) => {
         >
           <ul className="nav navbar-nav navbar-right">
             <li>
-              <a href="#features" className="page-scroll">
+              <Link to="/" state="features">
                 Features
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#about" className="page-scroll">
+              <Link to="/" state="about">
                 About
-              </a>
+              </Link>
             </li>
             <li className="service-class">
-              <a href="#services" className="page-scroll">
+              <Link to="/" state="services">
                 Services
                 <i className="fa fa-caret"></i>
-              </a>
+              </Link>
               <span className="arrow"></span>
               <div class="mega">
                 <div class="container">
@@ -60,9 +60,9 @@ export const Navigation = (props) => {
                       <h6 class="block-title fs-12 no-margin">
                         Empowerd by growth
                       </h6>
-                      <a href="#contact" class="btn btn-black m-t-35">
+                      <Link class="btn btn-black m-t-35" to="/" state="contact">
                         Get in Touch
-                      </a>
+                      </Link>
                     </div>
                     <div class="col-lg-8 col-xs-12">
                       <div class="row">
@@ -71,7 +71,7 @@ export const Navigation = (props) => {
                           <ul class="sub-menu">
                             <li>
                               <Link to="/staffing">Staffing</Link>
-                            </li>{" "}
+                            </li>
                             <li>
                               <Link to="/resourcing">Resourcing</Link>
                             </li>
@@ -111,14 +111,14 @@ export const Navigation = (props) => {
               </div>
             </li>
             <li>
-              <a href="#content" className="page-scroll">
+              <Link to="/" state="content">
                 Content
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#contact" className="page-scroll">
+              <Link to="/" state="contact">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

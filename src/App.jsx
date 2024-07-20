@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { Navigation } from "./components/navigation";
+import { NavigationInternal } from "./components/navigationInternal";
 import { Header } from "./components/header";
 import { Features } from "./components/features";
 import { About } from "./components/about";
@@ -8,7 +9,7 @@ import { Services } from "./components/services";
 import { Content } from "./components/content";
 import { Contact } from "./components/contact";
 import { Staffing } from "./components/staffing";
-import { Resourceing } from "./components/resourceing";
+import { Resourcing } from "./components/resourcing";
 import { Webapp } from "./components/webapp";
 import { Mobility } from "./components/mobility";
 import { Modelling } from "./components/modelling";
@@ -54,19 +55,19 @@ const App = () => {
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
+              <NavigationInternal data={landingPageData.Navigation} />
               <Staffing data={landingPageData.Staffing} />
               <Contact data={landingPageData.Contact} />
             </div>
           }
         />
         <Route
-          path="resourceing"
+          path="resourcing"
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
-              <Resourceing data={landingPageData.Resourceing} />
+              <NavigationInternal data={landingPageData.Navigation} />
+              <Resourcing data={landingPageData.Resourcing} />
               <Contact data={landingPageData.Contact} />
             </div>
           }
@@ -76,7 +77,7 @@ const App = () => {
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
+              <NavigationInternal data={landingPageData.Navigation} />
               <Webapp data={landingPageData.Webapp} />
               <Contact data={landingPageData.Contact} />
             </div>
@@ -87,7 +88,7 @@ const App = () => {
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
+              <NavigationInternal data={landingPageData.Navigation} />
               <Mobility data={landingPageData.Mobility} />
               <Contact data={landingPageData.Contact} />
             </div>
@@ -98,7 +99,7 @@ const App = () => {
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
+              <NavigationInternal data={landingPageData.Navigation} />
               <Modelling data={landingPageData.Modelling} />
               <Contact data={landingPageData.Contact} />
             </div>
@@ -109,7 +110,7 @@ const App = () => {
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
+              <NavigationInternal data={landingPageData.Navigation} />
               <Analytics data={landingPageData.Analytics} />
               <Contact data={landingPageData.Contact} />
             </div>
@@ -120,7 +121,7 @@ const App = () => {
           element={
             <div>
               <ScrollToTop></ScrollToTop>
-              <Navigation data={landingPageData.Navigation} />
+              <NavigationInternal data={landingPageData.Navigation} />
               <Appliedai data={landingPageData.Appliedai} />
               <Contact data={landingPageData.Contact} />
             </div>
