@@ -1,9 +1,9 @@
 import React from "react";
 import "../css/pages.css";
 
-export const Resourceing = (props) => {
+export const Resourcing = (props) => {
   return (
-    <div id="resourceing">
+    <div id="resourcing">
       {" "}
       <div
         className="parallax"
@@ -52,7 +52,7 @@ export const Resourceing = (props) => {
             </div>
             <div class="col-sm-5 text-center">
               <img
-                alt="resourceing2"
+                alt="resourcing2"
                 class="image-responsive-height"
                 src={props?.data?.pageData?.img1}
               />
@@ -68,7 +68,7 @@ export const Resourceing = (props) => {
                 <img
                   src={props?.data?.pageData?.img2}
                   class="image-responsive-height-100 image-responsive-width"
-                  alt="resourceing3"
+                  alt="resourcing3"
                 />
               </div>
             </div>
