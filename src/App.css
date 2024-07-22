@@ -16,3 +16,22 @@
     width: 110%;
   }
 }
+@media screen and (max-width: 2700px) {
+  .slider-image {
+    width: 2600px;
+  }
+  .container-fluid {
+    margin: 0 10% 0 10%;
+  }
+  #features .container-fluid {
+    margin: 0;
+  }
+  .mega {
+    width: 60vw;
+    margin-left: -1000px;
+  }
+  .image-responsive-height {
+    height: 100%;
+    overflow: visible;
+  }
+}

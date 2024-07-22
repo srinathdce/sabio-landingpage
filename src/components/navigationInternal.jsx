@@ -2,15 +2,16 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const NavigationInternal = (props) => {
+  let width = window.innerWidth;
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top header">
-      <div className="container">
+      <div className={width <= 1170 ? "container" : "container-fluid"}>
         <div className="navbar-header">
           <button
             type="button"
             className="navbar-toggle collapsed"
             data-toggle="collapse"
-            data-target="#bs-example-navbar-collapse-1"
+            data-target="#bs-example-navbar-collapse-2"
           >
             {" "}
             <span className="sr-only">Toggle navigation</span>{" "}
@@ -30,9 +31,9 @@ export const NavigationInternal = (props) => {
 
         <div
           className="collapse navbar-collapse"
-          id="bs-example-navbar-collapse-1"
+          id="bs-example-navbar-collapse-2"
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul className="nav navbar-nav navbar-right" data-toggle="collapse" data-target=".navbar-collapse.in">
             <li>
               <Link to="/" state="features">
                 Features
@@ -50,7 +51,7 @@ export const NavigationInternal = (props) => {
               </Link>
               <span className="arrow"></span>
               <div class="mega">
-                <div class="container">
+                <div className={width <= 1170 ? "container" : "container-fluid"}>
                   <div class="row">
                     <div class="col-md-4 p-l-25 sm-p-l-0 hidden-sm hidden-xs">
                       <h6 class="block-title fs-12 no-margin">Our Offerings</h6>

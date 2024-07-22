@@ -44,7 +44,7 @@ export const Contact = (props) => {
   return (
     <div>
       <div id="contact">
-        <div className="container">
+        <div className={window.innerWidth <= 1170 ? "container" : "container-fluid"}>
           <div className="col-md-8">
             <div className="row">
               <div className="section-title">

@@ -2,6 +2,7 @@ import React from "react";
 import "../css/pages.css";
 
 export const Analytics = (props) => {
+  let width = window.innerWidth;
   return (
     <div id="analytics">
       {" "}
@@ -16,7 +17,7 @@ export const Analytics = (props) => {
         </div>{" "}
       </div>
       <section class="pb-85 pt-75 no-overflow">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-md-6">
@@ -44,7 +45,7 @@ export const Analytics = (props) => {
         </div>
       </section>
       <section class="bg-master-lightest pb-85 pt-75 no-overflow">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="row">
             <div class="col-md-6">
               <div class="content-mask-md">

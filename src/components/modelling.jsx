@@ -2,6 +2,7 @@ import React from "react";
 import "../css/pages.css";
 
 export const Modelling = (props) => {
+  let width = window.innerWidth;
   return (
     <div id="modelling">
       {" "}
@@ -16,7 +17,7 @@ export const Modelling = (props) => {
         </div>{" "}
       </div>
       <section class="bg-master-lightest pb-85 pt-75">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="row">
             <div class="col-xs-12 col-md-5">
               <h1 class="mt-5">
@@ -39,7 +40,7 @@ export const Modelling = (props) => {
         </div>
       </section>
       <section class="bg-warning pb-85 pt-75 no-overflow">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-sm-6">
@@ -72,7 +73,7 @@ export const Modelling = (props) => {
         </div>
       </section>
       <section class="bg-master-lightest pb-85 pt-75 no-overflow">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="row">
             <div class="col-sm-6">
               <div class="content-mask-md">

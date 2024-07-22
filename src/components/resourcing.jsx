@@ -2,6 +2,7 @@ import React from "react";
 import "../css/pages.css";
 
 export const Resourcing = (props) => {
+  let width = window.innerWidth;
   return (
     <div id="resourcing">
       {" "}
@@ -14,7 +15,7 @@ export const Resourcing = (props) => {
         </div>{" "}
       </div>
       <section class="bg-master-lightest pb-85 pt-75">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="row">
             <div class="col-xs-12 col-md-4">
               <h1 class="mt-5">{props?.data?.pageData?.section}</h1>
@@ -33,7 +34,7 @@ export const Resourcing = (props) => {
         </div>
       </section>
       <section class="bg-warning pb-85 pt-75 no-overflow">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="block-title hint-text"></div>
           <div class="row">
             <div class="col-sm-7">
@@ -61,7 +62,7 @@ export const Resourcing = (props) => {
         </div>
       </section>
       <section class="bg-master-lightest pb-85 pt-75 no-overflow">
-        <div class="container">
+        <div className={width <= 1170 ? "container" : "container-fluid"}>
           <div class="row">
             <div class="col-sm-6">
               <div class="content-mask-md">
