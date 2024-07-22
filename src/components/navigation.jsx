@@ -2,9 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 export const Navigation = (props) => {
+  let width = window.innerWidth;
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top header">
-      <div className="container">
+      <div className={width <= 1170 ? "container" : "container-fluid"}>
         <div className="navbar-header">
           <button
             type="button"
@@ -32,7 +33,7 @@ export const Navigation = (props) => {
           className="collapse navbar-collapse"
           id="bs-example-navbar-collapse-1"
         >
-          <ul className="nav navbar-nav navbar-right">
+          <ul className="nav navbar-nav navbar-right" data-toggle="collapse" data-target=".navbar-collapse.in">
             <li>
               <a href="#features" className="page-scroll">
                 Features
@@ -50,7 +51,7 @@ export const Navigation = (props) => {
               </a>
               <span className="arrow"></span>
               <div class="mega">
-                <div class="container">
+                <div className={width <= 1170 ? "container" : "container-fluid"}>
                   <div class="row">
                     <div class="col-md-4 p-l-25 sm-p-l-0 hidden-sm hidden-xs">
                       <h6 class="block-title fs-12 no-margin">Our Offerings</h6>
